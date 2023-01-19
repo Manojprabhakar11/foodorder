@@ -1,0 +1,74 @@
+.modalContainer{
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:21% ;
+    font-size: 1.5rem;
+    background-color: rgb(153, 203, 218);
+    margin-top: 12%;
+    padding: 4%;
+    border-radius: 15px;
+}
+.modalContainerParent{
+    width: 100%;
+    z-index: 100;
+    height: 100vh;
+    position: fixed;
+    background-color:rgba(153, 203, 218, 0.836);
+    /* padding-top: 13%; */
+}
+.noOfItems{
+    display: flex;
+    width: 100%;
+    margin-bottom: 2%;
+}
+.itemDescription{
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+.ModalItemProfile{
+    width:30%;
+    aspect-ratio: 10/4;
+    /* height: 20px; */
+    margin-left: 32%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+.addToCartBtn{
+    border: 0;
+    background-color: rgb(223, 103, 127);
+    padding-left: 1.5%;
+    padding-right: 1.5%;
+}
+.orderBtn{
+    padding:1%;
+    background-color: rgb(164, 226, 188);
+    border: 0;
+    border-radius: 4px;
+    margin: 1%;
+    font-size: 1.3rem;
+    
+}
+.orderBtnParent{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.itemDetail{
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.itemAddTo{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
