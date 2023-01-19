@@ -13,8 +13,9 @@
     height: 100vh;
     position: fixed;
     background-color:rgba(153, 203, 218, 0.705);
-    padding-top: 13%;
+    padding-top: 5%;
     width: 100%;
+    overflow-y: scroll;
 }
 .carts{
     width: 100%;
